@@ -1,0 +1,33 @@
+@import url('dropdown-style.css');
+@import url('malihu-scrollbar.css');
+
+.main-adv{
+	width: 100%;
+	height: 150px;
+	margin-top: 2rem;
+	background-color: #f0fef9;
+	text-align: center;
+}
+.text-adv{
+	padding-top: 4vw;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 24px;
+}
+@media(max-width: 1202px){
+	.text-dl{
+		padding: 2rem 1rem;
+	}
+	.text-adv {
+    padding-top: 15vw;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 18px;
+}
+.text-adv {
+    padding-top: 16vw;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 18px;
+}
+}

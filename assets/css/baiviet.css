@@ -1,0 +1,256 @@
+@import url('dropdown-style.css');
+@import url('malihu-scrollbar.css');
+#review-tuvan{
+	margin-top: 8rem;
+    border: 1px solid #ccc;
+}
+#bvccd{
+    margin-top: 4rem;
+}
+.catelogy{
+	margin: 20px;
+}
+.catelogy2{
+    margin: 40px;
+}
+.text-title {
+    font-size: 22px;
+    padding-top: 1rem;
+}
+.text-title:first-child{
+	padding-top: .5rem;
+}
+.main-place{
+	margin: 6rem 0 3rem 0;
+}
+.up-date{
+	transition: all 0.4s ease 0s;
+    font-weight: bold;
+    font-size: 12px;
+    top: 10px;
+    left: 25px;
+    background-color: white;
+    padding: 0.2rem 0.3rem;
+}
+.x4-section{
+	margin-top: 1.5rem;
+}
+.read-more{
+    color:  #c62b35;
+    font-weight: bold;
+    font-size: 12px;
+}
+.day, .day2, .month, .month2{
+	color: #555;
+	margin-bottom: 0;
+	text-align: center;
+}
+.day{
+	font-size: 24px;
+}
+.day2{
+	font-size: 16px;
+}
+.month{
+	font-weight: 500;
+}
+.month2{
+	font-weight: 500;
+	font-size: 8px;
+}
+.main-section-title{
+	font-weight: 700;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+.main-section-text{
+	font-weight: 700;
+
+}
+.section-hr{
+	border-bottom: 5px solid #c62b35;
+    width: 50%;
+    margin-bottom: 2rem;
+}
+.second-section-title{
+	font-weight: 700;
+    line-height: 1.2;
+    margin-top: .7rem;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+.aside-title{
+    border-bottom: 2px solid #c5232b;
+    margin-top: 1.5rem;
+    width: 100%;
+}
+.aside-title:first-child{
+	margin-top: 0;
+}
+.sidebar-btn{
+	padding: 5px 4px;
+    font-size: 16px;
+    margin-left: -38px;
+    background-color: transparent;
+    color: #c5232b;
+}
+.aside-picture{
+	position: relative;
+	width: 100%;
+	display: block;
+	margin: 1rem auto;
+}
+.aside-picture-text{
+    position: absolute;
+    padding: 1rem;
+    color: white;
+    margin-bottom: 0;
+    background-color: #55555588;
+    font-weight: 700;
+    bottom: 0;
+}
+.text-title-aside{
+    line-height: 1.1;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+.single-title{
+	margin-top: 2rem;
+}
+.pagi-nation {
+    width: 22%;
+    margin-right: 1rem;
+}
+/* ****************************** */
+.content-title{
+     font-size: 22px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.content-divider{
+    border-bottom: 1px solid #ccc;
+    margin: 1rem 0 0 0;
+    width: 50%;
+}
+.header-text-content{
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.img-content-text{
+    width: 80%;
+    display: block;
+    margin: 1rem auto;
+}
+.bvlq-title {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: .5rem 0;
+    overflow: hidden !important;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2 !important;
+    -webkit-box-orient: vertical !important;
+}
+.bvlq-text {
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: .3rem;
+}
+@media (max-width: 1200px){
+
+    .main-place {
+    margin: 2rem 0 0rem 0;
+    }
+    .content-title{
+        font-size: 20px;
+    }
+    .header-text-content{
+        margin-top: 1rem;
+    }
+    .catelogy2 {
+    margin: 20px 0 0 0;
+    }
+    .bvlq-title{
+        font-size: 10px;
+        margin: .5rem 0 0 0;
+    }
+    .bvlq-text{
+        display: none;
+    }
+    .read-more {
+    color: #c62b35;
+    font-weight: bold;
+    font-size: 10px;
+    display: block;
+    margin: .3rem 0 1rem 0;
+    text-align: center;
+    }
+}
+
+.relative_img .img{
+    background-size: cover !important;
+    background-position: center center !important;
+    width: 100%;
+    height: 100%;
+    display: block;
+    transition: 0.5s;
+    padding: 125px 0;
+}
+
+.color_filter .form-group input{
+    display: block;
+}
+
+.archive .slt_color_product li{
+    display: flex !important;
+}
+
+.homeSubmenu2{
+    padding-left: 15px;
+}
+
+.archive #choose-panel .col-xl-8 .justify-content-between{
+    justify-content: flex-start !important;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.archive #choose-panel .col-xl-8 .justify-content-between .form-group{
+    width: 20% !important;
+}
+
+@media screen and (max-width: 991px){
+    .sale{
+        left: 0px !important;
+    }
+    #mCSB_1_container .nav-item{
+        position: relative;
+    }
+    #mCSB_1_container .nav-item ul{
+        position: relative;
+    }
+    #mCSB_1_container .nav-item  i{
+        position: absolute;
+        right: 10px;
+        top: 13px;
+        width: 20px;
+        z-index: 9999;
+        font-size: 20px;
+        background: #2F503D;
+        color: #FFF;
+        cursor: pointer;
+    }
+
+    #mCSB_1_container .nav-item ul{
+        background: #dede;
+        display: none;
+    }
+}
+
+#register_product.ac{
+    visibility: visible;
+    opacity: 1;
+    display: flex !important;
+}

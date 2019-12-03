@@ -1,0 +1,65 @@
+@import url('dropdown-style.css');
+@import url('malihu-scrollbar.css');
+.text-title{
+	font-size: 26px;
+}
+.middle-form{
+	width: 400px;
+}
+.para-dl{
+	font-weight: 700;
+	width: 100%;
+}
+.dc-mua2 {
+	margin: 0.5rem 0;
+    padding: .6rem 1rem;
+    width: 100%;
+    border: 1px solid #aaa;
+}
+.dc-mua2:first-child{
+	margin-top: 2rem;
+}
+.custom-dh {
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+        border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background: #438d02;
+    padding: .5rem 0;
+    display: block;
+    margin: 1rem auto 3rem;
+    color: white;
+    font-size: 18px;
+    width: 102px;
+}
+#popup-onclick {
+    margin-top: 381px;
+}
+@media(max-width: 1200px){
+    .para-dl{
+        padding: 0rem 1rem;
+    }
+    .text-dl{
+        padding: 2rem 1rem;
+    }
+    .text-title {
+        font-size: 20px;
+    }
+    .custom-dh {
+        text-transform: uppercase;
+        font-weight: 700;
+        padding: .5rem 0;
+        display: block;
+        margin: 1rem auto 3rem;
+        color: white;
+        font-size: 14px;
+        width: 80px;
+    }
+}
+@media(max-width: 560px){
+    .middle-form {
+    width: 100%;
+    margin: 0 1rem;
+    }
+}

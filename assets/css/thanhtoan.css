@@ -1,0 +1,103 @@
+@import url('dropdown-style.css');
+@import url('malihu-scrollbar.css');
+.dc-mua2 {
+	margin: 0.5rem 0 !important;
+    padding: .6rem 1rem !important;
+    width: 100% !important;
+    border: 1px solid #eee !important;
+}
+.dc-mua2:first-child{
+	margin-top: 2rem;
+}
+input::placeholder{
+	font-size: 14px;
+	font-weight: 700;
+}
+.bill2 {
+	margin-top: 3rem;
+    border: 1px solid #eee;
+    padding: 2rem 0rem 1rem 0rem;
+}
+#m-up-sp, #m-up-sp3{
+	margin-left: 0;
+    font-size: 12px;
+    width: 1.5rem;
+    line-height: 16px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+}
+#m-down-sp, #m-down-sp3{
+	margin-left: 0;
+    font-size: 12px;
+    width: 1.5rem;
+    line-height: 16px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+}
+#m-s-luong2, #m-s-luong3{
+	border: 1px solid #ccc;
+	border-right: 0;
+	border-left: 0;
+    width: 2rem;
+    line-height: 24px;
+}
+.input-rad {
+    width: 90%;
+    margin: .5rem 0;
+    border: 1px solid #eee;
+    padding: .6rem 1rem;
+}
+.input-rad:first-child{
+	margin-top: 1.5rem;
+}
+.rad-giohang {
+    margin-right: 20px;
+}
+.a-show{
+	width: 80%;
+	margin-left: 3.3rem;
+	display: none;
+	font-size: 14px;
+	height: 200px;
+	overflow-y: scroll;
+	padding: .7rem .3rem;
+	margin-bottom: .5rem;
+}
+.remove-items{
+	color: #28B3D2;
+	margin-top: 1rem;
+}
+.old-price-label{
+	margin-bottom: 0;
+    color: #6c757d;
+    font-size: 14px;
+    font-weight: 700;
+}
+.sp-des{
+	padding-bottom: 1rem;
+}
+#s-luong3, #s-luong4{
+    border: 1px solid #aaa;
+    width: 41px;
+    line-height: 34px;
+}
+#popup-onclick{
+    margin-top: 370px;
+}
+@media(max-width: 1200px){
+    .custom-dh, .dc-mua2, .input-rad{
+        width: 100%;
+    }
+    .bill2{
+        display: none;
+    }
+    .a-show {
+    width: 80%;
+    margin: 0 3.3rem .5rem;
+    display: none;
+    font-size: 14px;
+    height: 200px;
+    overflow-y: scroll;
+    padding: .7rem .3rem;
+    }
+}

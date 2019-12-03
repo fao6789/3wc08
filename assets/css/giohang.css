@@ -1,0 +1,132 @@
+@import url('dropdown-style.css');
+@import url('malihu-scrollbar.css');
+#gh{
+	margin: 3rem 0;
+}
+.aside{
+	margin-top: 8rem;
+}
+.middle-element{
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+.aside-text{
+	margin-bottom: 0;
+	padding: .5rem 0;
+	font-weight: 700;
+	font-size: 14px;
+	color: #777;
+}
+.bold-aside-text{
+	font-weight: 700;
+	margin-bottom: 0;
+	padding: .5rem 0;
+}
+.current-price{
+	margin-bottom: 0;
+	color: #c62b35;
+	font-weight: 700;
+}
+.list-sp{
+	margin: 1rem 0;
+}
+.btn-checkout{
+	color: white;
+    border: 0;
+    padding: .4rem;
+    width: 100%;
+    margin: 1rem 0;
+    font-weight: 700;
+    background-color: #438d02;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.img-product-cart{
+	width: 120px;
+}
+.line-of-product{
+	padding: 1rem;
+	margin: 1rem 0 0 0;
+	background-color: #f5fbf9;
+}
+.product-description{
+	font-size: 14px;
+    margin-left: 1rem;
+    width: 170px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+.color-product{
+	width: 15px;
+	height: 15px;
+	margin-left: .5rem;
+	background-color: #c62b35;
+}
+.up-slsp{
+	   margin-left: 0;
+    font-size: 12px;
+    color: #c62b35;
+    width: 1.5rem;
+    line-height: 20px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+}
+.down-slsp{
+	   margin-left: 0;
+	   color: #c62b35;
+      font-size: 12px;
+      width: 1.5rem;
+    line-height: 20px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+}
+.s-luong2x{
+	border: 1px solid #ccc;
+	border-right: 0;
+	color: #c62b35;
+	background-color: transparent;
+	border-left: 0;
+    width: 2rem;
+    line-height: 20px;
+}
+.quantity-price{
+	margin-bottom: 0;
+	color: #c62b35;
+}
+.btn-equal{
+	color: white;
+	font-size: 12px;
+    padding: .1rem .3rem;
+    border: 0;
+}
+.btn-remove{
+	background-color: red;
+}
+.btn-refresh{
+	background-color: green;
+	margin-left: .2rem;
+}
+@media(max-width: 1200px){
+	#gh{
+		margin: 0;
+	}
+	.form-group {
+    display: none;
+    margin: 0;
+	}
+	.m-custom-display{
+    width: 50%;
+    margin: .5rem 0;
+	}
+	.quantity-price{
+    width: 50%;
+    text-align: right;
+	}
+	.down-slsp,.s-luong2x .up-slsp{
+		line-height: 20px;
+	}
+	.product-description{
+		width: 140px;
+	}
+}
